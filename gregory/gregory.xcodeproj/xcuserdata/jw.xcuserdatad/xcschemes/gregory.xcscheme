@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CB7AEDD719BBCE6000482AFC"
-               BuildableName = "ask_gregory.app"
-               BlueprintName = "ask_gregory"
-               ReferencedContainer = "container:ask_gregory.xcodeproj">
+               BlueprintIdentifier = "CB7AEE1B19BBDB2800482AFC"
+               BuildableName = "gregory.app"
+               BlueprintName = "gregory"
+               ReferencedContainer = "container:gregory.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CB7AEDFB19BBCE6000482AFC"
-               BuildableName = "ask_gregoryTests.xctest"
-               BlueprintName = "ask_gregoryTests"
-               ReferencedContainer = "container:ask_gregory.xcodeproj">
+               BlueprintIdentifier = "CB7AEE3619BBDB2800482AFC"
+               BuildableName = "gregoryTests.xctest"
+               BlueprintName = "gregoryTests"
+               ReferencedContainer = "container:gregory.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CB7AEDD719BBCE6000482AFC"
-            BuildableName = "ask_gregory.app"
-            BlueprintName = "ask_gregory"
-            ReferencedContainer = "container:ask_gregory.xcodeproj">
+            BlueprintIdentifier = "CB7AEE1B19BBDB2800482AFC"
+            BuildableName = "gregory.app"
+            BlueprintName = "gregory"
+            ReferencedContainer = "container:gregory.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CB7AEDD719BBCE6000482AFC"
-            BuildableName = "ask_gregory.app"
-            BlueprintName = "ask_gregory"
-            ReferencedContainer = "container:ask_gregory.xcodeproj">
+            BlueprintIdentifier = "CB7AEE1B19BBDB2800482AFC"
+            BuildableName = "gregory.app"
+            BlueprintName = "gregory"
+            ReferencedContainer = "container:gregory.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CB7AEDD719BBCE6000482AFC"
-            BuildableName = "ask_gregory.app"
-            BlueprintName = "ask_gregory"
-            ReferencedContainer = "container:ask_gregory.xcodeproj">
+            BlueprintIdentifier = "CB7AEE1B19BBDB2800482AFC"
+            BuildableName = "gregory.app"
+            BlueprintName = "gregory"
+            ReferencedContainer = "container:gregory.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ask_gregory.xcscheme</key>
+		<key>gregory.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>CB7AEDD719BBCE6000482AFC</key>
+		<key>CB7AEE1B19BBDB2800482AFC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CB7AEDFB19BBCE6000482AFC</key>
+		<key>CB7AEE3619BBDB2800482AFC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

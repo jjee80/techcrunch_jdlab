@@ -1,6 +1,6 @@
 //
-//  ask_gregoryTests.m
-//  ask_gregoryTests
+//  gregoryTests.m
+//  gregoryTests
 //
 //  Created by jw on 9/6/14.
 //  Copyright (c) 2014 JDLab. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface ask_gregoryTests : XCTestCase
+@interface gregoryTests : XCTestCase
 
 @end
 
-@implementation ask_gregoryTests
+@implementation gregoryTests
 
 - (void)setUp
 {
