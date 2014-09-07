@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06F7C5ED19BBEC4700FED3AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F7C5EC19BBEC4700FED3AB /* ViewController.m */; };
+		06F7C5F119BBEE2B00FED3AB /* SetupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F7C5F019BBEE2B00FED3AB /* SetupVC.m */; };
+		06F7C5F819BBEFD500FED3AB /* SOWebViewVC_Pad.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F7C5F619BBEFD500FED3AB /* SOWebViewVC_Pad.m */; };
+		06F7C5F919BBEFD500FED3AB /* SOWebViewVC_Pad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06F7C5F719BBEFD500FED3AB /* SOWebViewVC_Pad.xib */; };
 		CB7AEE2019BBDB2800482AFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7AEE1F19BBDB2800482AFC /* Foundation.framework */; };
 		CB7AEE2219BBDB2800482AFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7AEE2119BBDB2800482AFC /* CoreGraphics.framework */; };
 		CB7AEE2419BBDB2800482AFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7AEE2319BBDB2800482AFC /* UIKit.framework */; };
@@ -17,8 +21,6 @@
 		CB7AEE3919BBDB2800482AFC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7AEE3819BBDB2800482AFC /* XCTest.framework */; };
 		CB7AEE3A19BBDB2800482AFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7AEE1F19BBDB2800482AFC /* Foundation.framework */; };
 		CB7AEE3B19BBDB2800482AFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7AEE2319BBDB2800482AFC /* UIKit.framework */; };
-		CB7AEE4319BBDB2800482AFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB7AEE4119BBDB2800482AFC /* InfoPlist.strings */; };
-		CB7AEE4519BBDB2800482AFC /* gregoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7AEE4419BBDB2800482AFC /* gregoryTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06F7C5EB19BBEC4700FED3AB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		06F7C5EC19BBEC4700FED3AB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06F7C5EF19BBEE2B00FED3AB /* SetupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupVC.h; sourceTree = "<group>"; };
+		06F7C5F019BBEE2B00FED3AB /* SetupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupVC.m; sourceTree = "<group>"; };
+		06F7C5F519BBEFD500FED3AB /* SOWebViewVC_Pad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOWebViewVC_Pad.h; sourceTree = "<group>"; };
+		06F7C5F619BBEFD500FED3AB /* SOWebViewVC_Pad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOWebViewVC_Pad.m; sourceTree = "<group>"; };
+		06F7C5F719BBEFD500FED3AB /* SOWebViewVC_Pad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SOWebViewVC_Pad.xib; sourceTree = "<group>"; };
 		CB7AEE1C19BBDB2800482AFC /* gregory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gregory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7AEE1F19BBDB2800482AFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CB7AEE2119BBDB2800482AFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,9 +54,6 @@
 		CB7AEE3119BBDB2800482AFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CB7AEE3719BBDB2800482AFC /* gregoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gregoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7AEE3819BBDB2800482AFC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		CB7AEE4019BBDB2800482AFC /* gregoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gregoryTests-Info.plist"; sourceTree = "<group>"; };
-		CB7AEE4219BBDB2800482AFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CB7AEE4419BBDB2800482AFC /* gregoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gregoryTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,11 +80,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06F7C5EE19BBEDDB00FED3AB /* img */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
 		CB7AEE1319BBDB2800482AFC = {
 			isa = PBXGroup;
 			children = (
+				06F7C5EB19BBEC4700FED3AB /* ViewController.h */,
+				06F7C5EC19BBEC4700FED3AB /* ViewController.m */,
 				CB7AEE2519BBDB2800482AFC /* gregory */,
-				CB7AEE3E19BBDB2800482AFC /* gregoryTests */,
 				CB7AEE1E19BBDB2800482AFC /* Frameworks */,
 				CB7AEE1D19BBDB2800482AFC /* Products */,
 			);
@@ -107,6 +121,12 @@
 		CB7AEE2519BBDB2800482AFC /* gregory */ = {
 			isa = PBXGroup;
 			children = (
+				06F7C5EE19BBEDDB00FED3AB /* img */,
+				06F7C5F519BBEFD500FED3AB /* SOWebViewVC_Pad.h */,
+				06F7C5F619BBEFD500FED3AB /* SOWebViewVC_Pad.m */,
+				06F7C5F719BBEFD500FED3AB /* SOWebViewVC_Pad.xib */,
+				06F7C5EF19BBEE2B00FED3AB /* SetupVC.h */,
+				06F7C5F019BBEE2B00FED3AB /* SetupVC.m */,
 				CB7AEE2E19BBDB2800482AFC /* AppDelegate.h */,
 				CB7AEE2F19BBDB2800482AFC /* AppDelegate.m */,
 				CB7AEE3119BBDB2800482AFC /* Images.xcassets */,
@@ -122,24 +142,6 @@
 				CB7AEE2819BBDB2800482AFC /* InfoPlist.strings */,
 				CB7AEE2B19BBDB2800482AFC /* main.m */,
 				CB7AEE2D19BBDB2800482AFC /* gregory-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CB7AEE3E19BBDB2800482AFC /* gregoryTests */ = {
-			isa = PBXGroup;
-			children = (
-				CB7AEE4419BBDB2800482AFC /* gregoryTests.m */,
-				CB7AEE3F19BBDB2800482AFC /* Supporting Files */,
-			);
-			path = gregoryTests;
-			sourceTree = "<group>";
-		};
-		CB7AEE3F19BBDB2800482AFC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CB7AEE4019BBDB2800482AFC /* gregoryTests-Info.plist */,
-				CB7AEE4119BBDB2800482AFC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -221,6 +223,7 @@
 			files = (
 				CB7AEE2A19BBDB2800482AFC /* InfoPlist.strings in Resources */,
 				CB7AEE3219BBDB2800482AFC /* Images.xcassets in Resources */,
+				06F7C5F919BBEFD500FED3AB /* SOWebViewVC_Pad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +231,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB7AEE4319BBDB2800482AFC /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +241,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06F7C5ED19BBEC4700FED3AB /* ViewController.m in Sources */,
 				CB7AEE3019BBDB2800482AFC /* AppDelegate.m in Sources */,
+				06F7C5F119BBEE2B00FED3AB /* SetupVC.m in Sources */,
+				06F7C5F819BBEFD500FED3AB /* SOWebViewVC_Pad.m in Sources */,
 				CB7AEE2C19BBDB2800482AFC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB7AEE4519BBDB2800482AFC /* gregoryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,14 +271,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				CB7AEE2919BBDB2800482AFC /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		CB7AEE4119BBDB2800482AFC /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CB7AEE4219BBDB2800482AFC /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -314,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -347,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -439,6 +435,7 @@
 				CB7AEE4A19BBDB2800482AFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB7AEE4B19BBDB2800482AFC /* Build configuration list for PBXNativeTarget "gregoryTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +444,7 @@
 				CB7AEE4D19BBDB2800482AFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
